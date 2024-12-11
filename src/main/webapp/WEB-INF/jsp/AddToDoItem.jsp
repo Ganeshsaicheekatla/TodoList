@@ -75,7 +75,7 @@
                 var msg = "${message}";
                 console.log(msg);
                 if (msg == "Save Failure") {
-    				Command: toastr["error"]("Something went wrong with the save.")
+    			   toastr["error"]("Something went wrong with the save.")
     			}
 
     			toastr.options = {
